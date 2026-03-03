@@ -1,0 +1,10 @@
+.menu-entry {
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	width: 100%;
+	border-bottom: 1px solid var(--primary-fg);
+	color: var(--primary-fg);
+}

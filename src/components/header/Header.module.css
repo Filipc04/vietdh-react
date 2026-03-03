@@ -1,0 +1,25 @@
+.header {
+	width: 100%;
+	border-bottom: 2px solid var(--primary-fg);
+	display: flex;
+	padding: 10px 20px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+}
+
+.images-link {
+	text-transform: uppercase;
+	color: var(--primary-fg);
+}
+
+.viet-logo {
+	width: 100px;
+}
