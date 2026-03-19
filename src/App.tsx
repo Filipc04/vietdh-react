@@ -1,14 +1,16 @@
-import styles from './App.module.css';
-import { Header, LunchMenu } from './components';
+import { Routes, Route, BrowserRouter } from 'react-router';
+import { HomePage } from './pages/HomePage';
+
 
 function App() {
 	return (
 		<>
-			<Header />
-			<section className={styles.lunchAndInfo}>
-				<LunchMenu />
-				<div>Panel</div>
-			</section>
+			<BrowserRouter>
+				<Routes>
+					<Route path='/' element={<HomePage />}/>
+					<Route path='/bilder' element={[]}/>
+				</Routes>		
+			</BrowserRouter>
 		</>
 	);
 }
