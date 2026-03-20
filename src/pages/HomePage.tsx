@@ -1,4 +1,4 @@
-import { Header, LunchMenu, RestaurantInfo } from "../components"
+import { Header, LunchMenu, RestaurantInfo, DinnerMenu } from "../components"
 import styles from './HomePage.module.css'
 
 export const HomePage = () => {
@@ -9,6 +9,7 @@ export const HomePage = () => {
         <LunchMenu />
         <RestaurantInfo />
       </div>
+      <DinnerMenu />
     </>
     
   )

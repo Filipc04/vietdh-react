@@ -1,4 +1,4 @@
-import type { DailyMenu } from './types';
+import type { DailyMenu } from '../../types/types';
 
 export const dailyMeals: DailyMenu[] = [
 	{

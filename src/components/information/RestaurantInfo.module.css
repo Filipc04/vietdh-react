@@ -14,3 +14,12 @@
 .address {
   color: var(--primary-fg);
 }
+
+.order-button{
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid var(--primary-fg);
+  color: white;
+  padding: 10px 25px;
+}

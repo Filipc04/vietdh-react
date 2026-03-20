@@ -1,0 +1,12 @@
+.dinner-menu-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meal-category {
+  color: var(--primary-fg);
+  border-bottom: 1px solid var(--primary-fg);
+  width: 100%;
+}
