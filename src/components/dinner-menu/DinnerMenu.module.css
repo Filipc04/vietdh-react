@@ -1,12 +1,33 @@
 .dinner-menu-container{
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
+} 
 
 .meal-category {
   color: var(--primary-fg);
   border-bottom: 1px solid var(--primary-fg);
   width: 100%;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.2em;
+} 
+
+.grid-item{
+  padding: 2em;
+  border: 2px solid var(--primary-fg);
+  border-radius: 8px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
