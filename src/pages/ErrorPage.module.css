@@ -1,30 +1,28 @@
-.info-container {
+.error-page{
+  height: 100vh;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
-  width: 50%;
-  font-size: 25px;
+  flex-direction: column;
 }
 
-.opening-hours {
+.error-img {
+  width: 200px;
+}
+
+.error-text{
   color: var(--primary-fg);
 }
 
-.address {
-  color: var(--primary-fg);
-}
-
-.order-button{
+.go-back-btn{
+  padding: 10px 25px;
   background-color: transparent;
-  border: none;
-  border-radius: 5px;
   border: 2px solid var(--primary-fg);
   color: white;
-  padding: 10px 25px;
+  border-radius: 5px;
 }
 
-.order-button:hover {
+.go-back-btn:hover {
   scale: 1.05;
   transition: 0.3s ease;
 }
