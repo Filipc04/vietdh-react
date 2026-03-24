@@ -1,4 +1,4 @@
 export interface RestaurantInfo {
-  openingHours: string;
-  address: string;
+	openingHours: string;
+	address: string;
 }

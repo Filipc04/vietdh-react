@@ -1,3 +1,3 @@
 export { ErrorPage } from './ErrorPage';
-export { HomePage } from './HomePage'
-export { ImagePage } from './ImagePage'
+export { HomePage } from './HomePage';
+export { ImagePage } from './ImagePage';

@@ -1,5 +1,5 @@
-import styles from './Header.module.css';
 import { NavLink } from 'react-router';
+import styles from './Header.module.css';
 
 export function Header() {
 	return (
@@ -11,7 +11,7 @@ export function Header() {
 			<NavLink to={'/'}>
 				<img className={styles.vietLogo} src="/vietdh_logo_yellow.png" alt="" />
 			</NavLink>
-			
+
 			<NavLink to={'/bilder'} className={styles.imagesLink}>
 				Bilder
 			</NavLink>

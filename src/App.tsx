@@ -1,18 +1,16 @@
-import { Routes, Route, BrowserRouter } from 'react-router';
-import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router';
+import './App.css';
 import { ErrorPage, HomePage, ImagePage } from './pages';
 
 function App() {
 	return (
-		<>
-			<BrowserRouter>
-				<Routes>
-					<Route path='/' element={<HomePage />}/>
-					<Route path='/bilder' element={<ImagePage />}/>
-					<Route path='*' element={<ErrorPage />}/>
-				</Routes>		
-			</BrowserRouter>
-		</>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<HomePage />} />
+				<Route path="/bilder" element={<ImagePage />} />
+				<Route path="*" element={<ErrorPage />} />
+			</Routes>
+		</BrowserRouter>
 	);
 }
 

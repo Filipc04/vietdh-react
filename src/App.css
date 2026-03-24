@@ -1,13 +1,12 @@
 body::-webkit-scrollbar {
-  width: 6px; /* 6 eller 7? vad blir bäst?*/
+	width: 6px; /* 6 eller 7? vad blir bäst?*/
 }
 
 body::-webkit-scrollbar-track {
-  background: transparent;
+	background: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #8b8b8b;
-  border-radius: 10px;
+	background-color: #8b8b8b;
+	border-radius: 10px;
 }
-

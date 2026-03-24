@@ -1,5 +1,5 @@
-import styles from './MenuEntry.module.css';
 import type { Meal } from '../../types/types';
+import styles from './MenuEntry.module.css';
 
 interface MenuEntryProps {
 	title: string;
