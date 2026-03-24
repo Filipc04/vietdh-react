@@ -5,26 +5,45 @@
   align-items: center;
   width: 50%;
   font-size: 25px;
+  gap: 10px;
 }
 
-.opening-hours {
+.opening-hours, .address {
   color: var(--primary-fg);
 }
 
-.address {
-  color: var(--primary-fg);
-}
 
-.order-button{
+.order-button {
   background-color: transparent;
-  border: none;
-  border-radius: 5px;
-  border: 2px solid var(--primary-fg);
+  border-radius: 15px;
+  border: 4px solid var(--primary-fg);
   color: white;
   padding: 10px 25px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .order-button:hover {
   scale: 1.05;
   transition: 0.3s ease;
 }
+
+.find-us-text{
+  color: var(--primary-fg);
+  font-size: 40px;
+}
+
+.find-us-link {
+  display: block; 
+  width: 90%;
+  border-radius: 15px;
+  border: 5px solid var(--primary-fg);
+
+}
+
+.find-us-image {
+  display: block; 
+  width: 100%;
+}
+
