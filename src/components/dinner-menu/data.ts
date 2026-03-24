@@ -1,4 +1,5 @@
 import type { DinnerMenu } from "../../types/types";
+/* import { GiChiliPepper } from "react-icons/gi"; Försök få att funka*/
 
 export const dinnerMeals: DinnerMenu[] = [
   {

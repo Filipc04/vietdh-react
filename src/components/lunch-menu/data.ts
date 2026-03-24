@@ -2,7 +2,7 @@ import type { DailyMenu } from '../../types/types';
 
 export const dailyMeals: DailyMenu[] = [
 	{
-		day: 'Monday',
+		day: 'Måndag',
 		meals: [
 			{
 				text: 'Kyckling schnitzel med stekt potatis, ärtor & bearnaisesås',
@@ -20,7 +20,7 @@ export const dailyMeals: DailyMenu[] = [
 		],
 	},
 	{
-		day: 'Tuesday',
+		day: 'Tisdag',
 		meals: [
 			{
 				text: 'Räkor Pokébowl',
@@ -34,7 +34,7 @@ export const dailyMeals: DailyMenu[] = [
 		],
 	},
 	{
-		day: 'Wednesday',
+		day: 'Onsdag',
 		meals: [
 			{
 				text: 'Kyckling pokébowl',
@@ -52,7 +52,7 @@ export const dailyMeals: DailyMenu[] = [
 		],
 	},
 	{
-		day: 'Thursday',
+		day: 'Torsdag',
 		meals: [
 			{
 				text: 'Fläskschnitzel med stekt potatis, bearnaisesås & ärtor',
@@ -66,7 +66,7 @@ export const dailyMeals: DailyMenu[] = [
 		],
 	},
 	{
-		day: 'Friday',
+		day: 'Fredag',
 		meals: [
 			{
 				text: 'Biff Pokébowl',
