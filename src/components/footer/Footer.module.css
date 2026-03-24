@@ -16,7 +16,7 @@
   background-color: transparent;
   border: 3px solid var(--primary-fg);
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .link-div{

@@ -1,8 +1,6 @@
 import { Routes, Route, BrowserRouter } from 'react-router';
-import { HomePage } from './pages/HomePage';
 import './App.css'
-import { ErrorPage } from './pages/ErrorPage';
-
+import { ErrorPage, HomePage, ImagePage } from './pages';
 
 function App() {
 	return (
@@ -10,7 +8,7 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path='/' element={<HomePage />}/>
-					<Route path='/bilder' element={[]}/>
+					<Route path='/bilder' element={<ImagePage />}/>
 					<Route path='*' element={<ErrorPage />}/>
 				</Routes>		
 			</BrowserRouter>
