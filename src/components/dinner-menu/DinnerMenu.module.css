@@ -1,34 +1,34 @@
-.dinner-menu-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} 
-
-.meal-category {
-  color: var(--primary-fg);
-  border-bottom: 1px solid var(--primary-fg);
-  width: 100%;
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-size: 20px;
+.dinner-menu-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.grid-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.2em;
-} 
+.meal-category {
+	color: var(--primary-fg);
+	border-bottom: 1px solid var(--primary-fg);
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
 
-.grid-item{
-  padding: 2em;
-  background-color: #242424;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1.2em;
+}
+
+.grid-item {
+	padding: 2em;
+	background-color: #242424;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .menu-item {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
 }
