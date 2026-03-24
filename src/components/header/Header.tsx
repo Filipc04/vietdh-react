@@ -8,7 +8,7 @@ export function Header() {
 				<img className={styles.vietLogo} src="/vietdh_logo_yellow.png" alt="" />
 			</NavLink>
 			<section className={styles.links}>
-				{/* <a className={styles.imagesLink}>Kvällsmeny</a> */}
+				<NavLink to={'/bilder'} className={styles.imagesLink}>Bilder</NavLink>
 			</section>
 		</header>
 	);

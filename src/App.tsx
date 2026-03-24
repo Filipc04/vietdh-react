@@ -10,7 +10,8 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path='/' element={<HomePage />}/>
-					<Route path='*' element={<ErrorPage />}/> {/* Add 404 not found*/}
+					<Route path='/bilder' element={[]}/>
+					<Route path='*' element={<ErrorPage />}/>
 				</Routes>		
 			</BrowserRouter>
 		</>
