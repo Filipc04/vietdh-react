@@ -12,3 +12,15 @@
 	padding: 20px 50px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) { 
+	.lunch-menu{
+		width: 100%;
+		justify-content: center;
+	}
+
+	.days{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+ }

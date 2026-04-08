@@ -11,6 +11,7 @@
 .opening-hours,
 .address {
 	color: var(--primary-fg);
+	text-align: center;
 }
 
 .order-button {
@@ -46,4 +47,11 @@
 	display: block;
 	width: 100%;
 	border-radius: 10px;
+}
+
+@media (max-width: 768px) { 
+	.info-container{
+		width: 100%;
+		justify-content: center;
+	}
 }
