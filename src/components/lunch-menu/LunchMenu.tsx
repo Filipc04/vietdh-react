@@ -1,4 +1,8 @@
-import { dailyMeals } from './data';
+import {
+	/*dailyMealsEven, */
+	dailyMealsOdd,
+} from './data';
+
 import styles from './LunchMenu.module.css';
 import { MenuEntry } from './MenuEntry';
 
@@ -7,7 +11,7 @@ export function LunchMenu() {
 		<div className={styles.lunchMenu}>
 			<h2>Lunchmeny</h2>
 			<div className={styles.days}>
-				{dailyMeals.map((dayAndMeal) => (
+				{dailyMealsOdd.map((dayAndMeal) => (
 					<MenuEntry
 						key={dayAndMeal.day}
 						title={dayAndMeal.day}

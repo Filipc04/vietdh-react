@@ -88,7 +88,7 @@ export const dinnerMeals: DinnerMenu[] = [
 		],
 	},
 	{
-		mealCategory: 'PadThai',
+		mealCategory: 'Pad Thai',
 		meals: [
 			{ text: 'Risnudlar med kyckling & blandade grönsaker', price: 105 },
 			{ text: 'Risnudlar med räkor & blandade grönsaker', price: 115 },
@@ -100,7 +100,7 @@ export const dinnerMeals: DinnerMenu[] = [
 		],
 	},
 	{
-		mealCategory: 'Friterad',
+		mealCategory: 'Friterat',
 		meals: [
 			{ text: 'Friterade kycklingvingar & pommes', price: 105 },
 			{ text: 'Friterad kyckling med sötsursås/jordnötssås', price: 105 },
