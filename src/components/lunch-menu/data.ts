@@ -8,7 +8,7 @@ export const dailyMeals: DailyMenu[] = [
 				text: 'Kyckling schnitzel med stekt potatis, ärtor & bearnaisesås',
 			},
 			{
-				text: 'Kyckling i rödcurry med blandade grönsaker & ris🌶️',
+				text: 'Kyckling i rödcurry med blandade grönsaker & ris',
 			},
 			{
 				text: 'Dagens små rätter (ris ingår)',
@@ -29,7 +29,7 @@ export const dailyMeals: DailyMenu[] = [
 				text: 'Wokad kyckling med blandade grönsaker & ris',
 			},
 			{
-				text: 'Wokad fläsk med grönsaker & ris🌶️🌶️',
+				text: 'Wokad fläsk med grönsaker & ris',
 			},
 		],
 	},
@@ -58,10 +58,10 @@ export const dailyMeals: DailyMenu[] = [
 				text: 'Fläskschnitzel med stekt potatis, bearnaisesås & ärtor',
 			},
 			{
-				text: 'Kyckling i panangcurry paprika, lök & ris🌶️',
+				text: 'Kyckling i panangcurry paprika, lök & ris',
 			},
 			{
-				text: 'Wokad biff med grönsaker i szechuansås🌶️🌶️',
+				text: 'Wokad biff med grönsaker i szechuansås',
 			},
 		],
 	},

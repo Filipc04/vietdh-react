@@ -15,7 +15,10 @@ export const dinnerMeals: DinnerMenu[] = [
 		meals: [
 			{ text: 'Wokad kyckling med bambuskott', price: 105 },
 			{ text: 'Wokad kyckling med grönsaker', price: 105 },
-			{ text: 'Wokad kyckling med grönsaker i szechuansås🌶️🌶️', price: 105 },
+			{
+				text: 'Wokad kyckling med grönsaker i szechuansås',
+				price: 105,
+			},
 			{ text: 'Kyckling pokébowl', price: 105 },
 		],
 	},
@@ -24,7 +27,7 @@ export const dinnerMeals: DinnerMenu[] = [
 		meals: [
 			{ text: 'Wokad biff med bambuskott', price: 115 },
 			{ text: 'Wokad biff med blandade grönsaker', price: 115 },
-			{ text: 'Wokad biff med grönsaker i szechuansås🌶️🌶️', price: 115 },
+			{ text: 'Wokad biff med grönsaker i szechuansås', price: 115 },
 			{ text: 'Biff pokébowl', price: 115 },
 		],
 	},
@@ -32,7 +35,7 @@ export const dinnerMeals: DinnerMenu[] = [
 		mealCategory: 'Fläsk',
 		meals: [
 			{ text: 'Wokad fläsk med grönsaker', price: 105 },
-			{ text: 'Wokad fläsk med grönsaker i szechuansås🌶️🌶️', price: 105 },
+			{ text: 'Wokad fläsk med grönsaker i szechuansås', price: 105 },
 		],
 	},
 	{
@@ -40,7 +43,7 @@ export const dinnerMeals: DinnerMenu[] = [
 		meals: [
 			{ text: 'Friterad anka med blandade grönsaker', price: 119 },
 			{
-				text: 'Friterad anka med blandade grönsaker i szechuansås🌶️🌶️',
+				text: 'Friterad anka med blandade grönsaker i szechuansås',
 				price: 119,
 			},
 			{ text: 'Friterad anka med lök, ananas i sötsursås', price: 119 },
@@ -51,7 +54,7 @@ export const dinnerMeals: DinnerMenu[] = [
 		meals: [
 			{ text: 'Wokade räkor med blandade grönsaker', price: 115 },
 			{
-				text: 'Wokade räkor med blandade grönsaker i szechuansås🌶️🌶️',
+				text: 'Wokade räkor med blandade grönsaker i szechuansås',
 				price: 115,
 			},
 			{ text: 'Räkor pokébowl', price: 115 },
@@ -85,7 +88,7 @@ export const dinnerMeals: DinnerMenu[] = [
 		],
 	},
 	{
-		mealCategory: 'PadThai🌶️',
+		mealCategory: 'PadThai',
 		meals: [
 			{ text: 'Risnudlar med kyckling & blandade grönsaker', price: 105 },
 			{ text: 'Risnudlar med räkor & blandade grönsaker', price: 115 },
@@ -132,7 +135,7 @@ export const dinnerMeals: DinnerMenu[] = [
 	{
 		mealCategory: 'Vegetariskt',
 		meals: [
-			{ text: 'Wokad tofu med blandade grönsaker i szechuansås🌶️🌶️', price: 99 },
+			{ text: 'Wokad tofu med blandade grönsaker i szechuansås', price: 99 },
 			{ text: 'Wokad tofu med blandade grönsaker', price: 99 },
 			{ text: 'Vegetariska vårrullar, ris & sås samt sallader', price: 99 },
 			{ text: 'Wokade äggnudlar med blandade grönsaker', price: 90 },
@@ -142,10 +145,10 @@ export const dinnerMeals: DinnerMenu[] = [
 		mealCategory: 'Curry',
 		meals: [
 			{
-				text: 'Rödcurry med blandade grönsaker (Kyckling / räkor / tofu eller anka)🌶️',
+				text: 'Rödcurry med blandade grönsaker (Kyckling / räkor / tofu eller anka)',
 			},
 			{
-				text: 'Gulcurry med blandade grönsaker (Kyckling / räkor eller tofu)🌶️',
+				text: 'Gulcurry med blandade grönsaker (Kyckling / räkor eller tofu)',
 			},
 			{
 				text: 'Panangcurry med lök, paprika & ananas (Kyckling / räkor / anka eller tofu) PRIIIIIIS',
