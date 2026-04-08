@@ -2,4 +2,8 @@
 	--primary-bg: #202020;
 	--primary-fg: #ffde59;
 	--secondary-fg: #ffffff;
+
+	--menu-font: "Lora", serif;
+	--heading-font: "Josefin Sans", sans-serif;
+	--large-heading-font: "Courier Prime", monospace;
 }

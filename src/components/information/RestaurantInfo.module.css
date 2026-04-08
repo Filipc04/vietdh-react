@@ -6,6 +6,7 @@
 	width: 50%;
 	font-size: 25px;
 	gap: 10px;
+	font-family: var(--heading-font);
 }
 
 .opening-hours,
@@ -47,6 +48,10 @@
 	display: block;
 	width: 100%;
 	border-radius: 10px;
+}
+
+.text-span{
+	font-family: var(--menu-font);
 }
 
 @media (max-width: 768px) { 

@@ -9,7 +9,7 @@ interface MenuEntryProps {
 export function MenuEntry({ title, meals }: MenuEntryProps) {
 	return (
 		<article className={styles.menuEntry}>
-			<h3 className={styles.title}>{title}</h3>
+			<div className={styles.title}>{title}</div>
 			<ol>
 				{meals.map((meal) => (
 					<>

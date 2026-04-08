@@ -8,6 +8,7 @@
 	padding: 15px 0;
 	margin-top: 50px;
 	background-color: #191919;
+	font-family: var(--heading-font);
 }
 
 .contact-button,

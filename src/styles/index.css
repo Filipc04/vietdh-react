@@ -28,3 +28,15 @@ a {
 	text-decoration: unset;
 	cursor: pointer;
 }
+
+li{
+	font-family: var(--menu-font)
+}
+
+h3{
+	font-family: var(--heading-font);
+}
+
+h2{
+	font-family: var(--heading-font);
+}
