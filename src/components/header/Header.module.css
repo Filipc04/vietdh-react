@@ -2,7 +2,7 @@
 	width: 100%;
 	border-bottom: 2px solid var(--primary-fg);
 	display: flex;
-	padding: 10px 20px;
+	padding: 0px 30px;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
