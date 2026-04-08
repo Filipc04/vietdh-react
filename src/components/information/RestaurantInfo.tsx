@@ -1,3 +1,4 @@
+import findUsImg from '../../assets/find_us.png';
 import { InfoObject } from './info';
 import styles from './RestaurantInfo.module.css';
 
@@ -14,11 +15,7 @@ export function RestaurantInfo() {
 				target="_blank"
 				rel="noopener"
 			>
-				<img
-					src="src/assets/find_us.png"
-					alt=""
-					className={styles.findUsImage}
-				/>
+				<img src={findUsImg} alt="" className={styles.findUsImage} />
 			</a>
 
 			<div className={styles.openingHours}>

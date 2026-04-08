@@ -8,7 +8,15 @@ export function LunchMenu() {
 			<h2>Lunchmeny</h2>
 			<div className={styles.days}>
 				{dailyMeals.map((dayAndMeal) => (
-					<MenuEntry title={dayAndMeal.day} meals={dayAndMeal.meals} />
+					<MenuEntry
+						key={dayAndMeal.day}
+						title={dayAndMeal.day}
+						meals={
+							typeof dayAndMeal.meals === 'string'
+								? [{ text: dayAndMeal.meals }]
+								: dayAndMeal.meals
+						}
+					/>
 				))}
 			</div>
 		</div>
