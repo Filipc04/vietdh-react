@@ -23,13 +23,13 @@ export const dailyMeals: DailyMenu[] = [
 		day: 'Tisdag',
 		meals: [
 			{
-				text: 'Räkor Pokébowl',
+				text: 'Räkor pokébowl',
 			},
 			{
 				text: 'Wokad kyckling med blandade grönsaker & ris',
 			},
 			{
-				text: 'Wokad fläsk med grönsaker & ris',
+				text: 'Wokat fläsk med grönsaker & ris',
 			},
 		],
 	},
@@ -42,7 +42,7 @@ export const dailyMeals: DailyMenu[] = [
 			{
 				text: 'Dagens små rätter (ris ingår)',
 				variants: [
-					'Kycklingspett i jordnötsås',
+					'Kycklingspett i jordnötssås',
 					'Friterad kyckling med sötsursås',
 				],
 			},
@@ -58,7 +58,7 @@ export const dailyMeals: DailyMenu[] = [
 				text: 'Fläskschnitzel med stekt potatis, bearnaisesås & ärtor',
 			},
 			{
-				text: 'Kyckling i panangcurry paprika, lök & ris',
+				text: 'Kyckling i panangcurry med paprika, lök & ris',
 			},
 			{
 				text: 'Wokad biff med grönsaker i szechuansås',
@@ -69,13 +69,13 @@ export const dailyMeals: DailyMenu[] = [
 		day: 'Fredag',
 		meals: [
 			{
-				text: 'Biff Pokébowl',
+				text: 'Biff pokébowl',
 			},
 			{
 				text: 'Wokad kyckling med blandade grönsaker & ris',
 			},
 			{
-				text: 'Kycklingspett i sötsurssås & ris',
+				text: 'Kycklingspett i sötsursås & ris',
 			},
 		],
 	},

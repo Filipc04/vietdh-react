@@ -12,11 +12,14 @@ export const DinnerMenu = () => {
 			<div className={styles.gridContainer}>
 				{dinnerMeals.map((category, categoryIndex) => {
 					const categoryStart = categoryStarts[categoryIndex];
+					const regularMeals = category.meals.filter((meal) => !meal.note);
+					const noteMeals = category.meals.filter((meal) => meal.note);
+
 					return (
 						<div key={category.mealCategory} className={styles.gridItem}>
 							<div className={styles.mealCategory}>{category.mealCategory}</div>
 							<ol start={categoryStart}>
-								{category.meals.map((meal) => (
+								{regularMeals.map((meal) => (
 									<li key={meal.text}>
 										<div className={styles.menuItem}>
 											<span>{meal.text}</span>
@@ -32,6 +35,12 @@ export const DinnerMenu = () => {
 									</li>
 								))}
 							</ol>
+							{noteMeals.map((meal) => (
+								<div key={meal.text} className={styles.noteItem}>
+									<span>{meal.text}</span>
+									<span>{meal.note}</span>
+								</div>
+							))}
 						</div>
 					);
 				})}

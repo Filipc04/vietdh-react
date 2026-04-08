@@ -1,8 +1,9 @@
 export interface Meal {
-	text: string;
+	text?: string;
 	variants?: string[];
 	price?: number;
 	proteinSource?: string;
+	note?: string;
 }
 
 export interface DailyMenu {

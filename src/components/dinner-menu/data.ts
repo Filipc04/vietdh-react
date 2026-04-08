@@ -5,7 +5,7 @@ export const dinnerMeals: DinnerMenu[] = [
 	{
 		mealCategory: 'Barnmeny',
 		meals: [
-			{ text: 'Friterad Kyckling', price: 70 },
+			{ text: 'Friterad kyckling', price: 70 },
 			{ text: 'Äggnudlar med kyckling', price: 70 },
 			{ text: 'Kycklingvingar med pommes', price: 70 },
 		],
@@ -34,8 +34,8 @@ export const dinnerMeals: DinnerMenu[] = [
 	{
 		mealCategory: 'Fläsk',
 		meals: [
-			{ text: 'Wokad fläsk med grönsaker', price: 105 },
-			{ text: 'Wokad fläsk med grönsaker i szechuansås', price: 105 },
+			{ text: 'Wokat fläsk med grönsaker', price: 105 },
+			{ text: 'Wokat fläsk med grönsaker i szechuansås', price: 105 },
 		],
 	},
 	{
@@ -102,9 +102,9 @@ export const dinnerMeals: DinnerMenu[] = [
 	{
 		mealCategory: 'Friterad',
 		meals: [
-			{ text: 'Friterad kycklingvingar & pommes', price: 105 },
+			{ text: 'Friterade kycklingvingar & pommes', price: 105 },
 			{ text: 'Friterad kyckling med sötsursås/jordnötssås', price: 105 },
-			{ text: 'Friterad räkor med sötsursås/jordnötssås', price: 115 },
+			{ text: 'Friterade räkor med sötsursås/jordnötssås', price: 115 },
 			{ text: 'Kycklingspett i jordnötssås/sötsursås', price: 105 },
 		],
 	},
@@ -116,7 +116,7 @@ export const dinnerMeals: DinnerMenu[] = [
 				price: 125,
 				variants: [
 					'Wokad biff med bambuskott',
-					'Friterad räkor med sötsursås',
+					'Friterade räkor med sötsursås',
 					'Friterad kyckling med sötsursås',
 					'Kyckling i gulcurry',
 				],
@@ -126,7 +126,7 @@ export const dinnerMeals: DinnerMenu[] = [
 				price: 115,
 				variants: [
 					'Wokad biff med bambuskott',
-					'Friterad räkor & sötsursås',
+					'Friterade räkor & sötsursås',
 					'Kycklingspett i jordnötssås',
 				],
 			},
@@ -151,7 +151,10 @@ export const dinnerMeals: DinnerMenu[] = [
 				text: 'Gulcurry med blandade grönsaker (Kyckling / räkor eller tofu)',
 			},
 			{
-				text: 'Panangcurry med lök, paprika & ananas (Kyckling / räkor / anka eller tofu) PRIIIIIIS',
+				text: 'Panangcurry med lök, paprika & ananas (Kyckling / räkor / anka eller tofu)',
+			},
+			{
+				note: 'Kyckling: 105kr, Räkor: 115kr, Tofu: 99kr, Anka: 119kr.',
 			},
 		],
 	},
