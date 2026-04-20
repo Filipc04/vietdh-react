@@ -13,6 +13,14 @@
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.price-div {
+	background-color: red;
+	padding: 10px;
+	margin: 10px;
+	font-family: var(--heading-font);
+	font-weight: 600;
+}
+
 @media (max-width: 768px) { 
 	.lunch-menu{
 		width: 100%;

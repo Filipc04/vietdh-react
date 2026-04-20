@@ -10,9 +10,16 @@
 }
 
 .opening-hours,
-.address {
+.address,
+.phone-number {
 	color: var(--primary-fg);
 	text-align: center;
+}
+
+.phone-number-tag {
+	color: white;
+	text-align: center;
+	text-decoration: underline;
 }
 
 .order-button {

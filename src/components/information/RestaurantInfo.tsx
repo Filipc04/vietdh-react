@@ -30,6 +30,14 @@ export function RestaurantInfo() {
 					{InfoObject.address}
 				</span>
 			</div>
+			<div className={styles.phoneNumber}>
+				Telefonnummer:{' '}
+				<span style={{ color: 'white' }} className="text-span">
+					<a className={styles.phoneNumberTag} href="tel:+46735232851">
+						{InfoObject.phoneNumber}
+					</a>
+				</span>
+			</div>
 		</div>
 	);
 }

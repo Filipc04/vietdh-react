@@ -30,10 +30,15 @@ a {
 }
 
 li{
-	font-family: var(--menu-font)
+	font-family: var(--menu-font);
+	letter-spacing: 0.055cap;
 }
 
 h3{
+	font-family: var(--heading-font);
+}
+
+h4{
 	font-family: var(--heading-font);
 }
 
