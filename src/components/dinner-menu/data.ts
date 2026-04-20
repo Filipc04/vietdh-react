@@ -24,9 +24,6 @@ export const dinnerMeals: DinnerMenu[] = [
 			{ text: 'Phở gà (nudelsoppa med kyckling)', price: 120 },
 			{ text: 'Phở bò & gà (nudelsoppa med biff och kyckling)', price: 120 },
 			{ text: 'Bún chả nem (risnudlar med vårrullar)', price: 120 },
-			{ text: 'Marinerad fläsk med risnudlar, sallader och sås', price: 120 },
-			{ text: 'Marinerad biff med risnudlar, sallader och sås', price: 120 },
-			{ text: 'Marinerad kyckling med risnudlar, sallader och sås', price: 120 },
 		],
 	},
 	{
