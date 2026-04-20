@@ -18,12 +18,20 @@ export const dinnerMeals: DinnerMenu[] = [
 		],
 	},
 	{
-		mealCategory: 'Vietnamesiskt',
+		mealCategory: 'Vietnamesiskt - Nudlar',
 		meals: [
 			{ text: 'Phở bò (nudelsoppa med biff)', price: 120 },
 			{ text: 'Phở gà (nudelsoppa med kyckling)', price: 120 },
 			{ text: 'Phở bò & gà (nudelsoppa med biff och kyckling)', price: 120 },
 			{ text: 'Bún chả nem (risnudlar med vårrullar)', price: 120 },
+			{ text: 'Marinerad fläsk med risnudlar, sallader och sås', price: 120 },
+			{ text: 'Marinerad biff med risnudlar, sallader och sås', price: 120 },
+			{ text: 'Marinerad kyckling med risnudlar, sallader och sås', price: 120 },
+		],
+	},
+	{
+		mealCategory: 'Vietnamesiskt - Kött',
+		meals: [
 			{ text: 'Marinerad fläsk med risnudlar, sallader och sås', price: 120 },
 			{ text: 'Marinerad biff med risnudlar, sallader och sås', price: 120 },
 			{ text: 'Marinerad kyckling med risnudlar, sallader och sås', price: 120 },
