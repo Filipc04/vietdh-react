@@ -4,6 +4,7 @@ import {
 	Header,
 	LunchMenu,
 	RestaurantInfo,
+	Reviews,
 } from '../components';
 import styles from './HomePage.module.css';
 
@@ -16,6 +17,7 @@ export const HomePage = () => {
 				<RestaurantInfo />
 			</div>
 			<DinnerMenu />
+			<Reviews />
 			<Footer />
 		</>
 	);
