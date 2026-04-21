@@ -5,6 +5,8 @@ const categoryStarts = dinnerMeals.map((_, i) =>
 	dinnerMeals.slice(0, i).reduce((sum, c) => sum + c.meals.length, 1),
 );
 
+const NO_NUMBER_CATEGORIES = ['Efterrätt', 'Tillbehör'];
+
 export const DinnerMenu = () => {
 	return (
 		<div className={styles.dinnerMenuContainer}>
@@ -14,27 +16,24 @@ export const DinnerMenu = () => {
 					const categoryStart = categoryStarts[categoryIndex];
 					const regularMeals = category.meals.filter((meal) => !meal.note);
 					const noteMeals = category.meals.filter((meal) => meal.note);
+					const numbered = !NO_NUMBER_CATEGORIES.includes(
+						category.mealCategory,
+					);
+					const ListTag = numbered ? 'ol' : 'ul';
 
 					return (
 						<div key={category.mealCategory} className={styles.gridItem}>
 							<div className={styles.mealCategory}>{category.mealCategory}</div>
-							<ol start={categoryStart}>
+							<ListTag {...(numbered ? { start: categoryStart } : {})}>
 								{regularMeals.map((meal) => (
 									<li key={meal.text}>
 										<div className={styles.menuItem}>
 											<span>{meal.text}</span>
 											<span>{meal.price ? `${meal.price}kr` : ''}</span>
 										</div>
-										{meal.variants && (
-											<ul>
-												{meal.variants.map((variant) => (
-													<li key={variant}>{variant}</li>
-												))}
-											</ul>
-										)}
 									</li>
 								))}
-							</ol>
+							</ListTag>
 							{noteMeals.map((meal) => (
 								<div key={meal.text} className={styles.noteItem}>
 									<span>{meal.text}</span>
