@@ -1,4 +1,60 @@
 .review-div{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 30px;
+}
+
+.review-row{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  
+}
+
+.review {
+  background-color: #262626;
+  color: rgb(254, 255, 246);
+  padding: 15px;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid var(--primary-fg);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.name{
+  font-family: var(--heading-font);
+  color: #fcecab;
+}
+
+.rating, .text{
+  font-family: var(--menu-font);
+  letter-spacing: 0.055cap;
+}
+
+.text{
+  flex-grow: 1;
+
+}
+
+.rating {
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) { 
+	.review-div{
+		flex-direction: column;
+    margin-bottom: 50px;
+	}
+
+  .review-row{
+    flex-direction: column;
+  }
+
+  
 }

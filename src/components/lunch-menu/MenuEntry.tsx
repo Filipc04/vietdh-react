@@ -15,7 +15,7 @@ export function MenuEntry({ title, meals }: MenuEntryProps) {
 					<>
 						<li>{meal.text}</li>
 						{meal.variants?.map((variant) => (
-							<ul>
+							<ul key={meal.text}>
 								<li>{variant}</li>
 							</ul>
 						))}
