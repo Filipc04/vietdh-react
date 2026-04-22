@@ -107,7 +107,7 @@ export const dinnerMeals: DinnerMenu[] = [
 				text: 'Räkor i panangcurry med lök, paprika & ananas', price: 119
 			},
 			{
-				note: 'Räkor i rödcurry med blandade grönsaker', price: 119
+				text: 'Räkor i rödcurry med blandade grönsaker', price: 119
 			},
 		],
 	},
@@ -150,7 +150,7 @@ export const dinnerMeals: DinnerMenu[] = [
 			{ text: 'Kyckling pokébowl', price: 109 },
 			{ text: 'Biff pokébowl', price: 119 },
 			{ text: 'Räkpokébowl', price: 119 },
-			{ text: '(innehåller gurka, paprika, rödlök, sjögrässallad, ingenfära, sojabönor, & sesamfrö (ägg, laktos))' },
+			{ note: 'Innehåller gurka, paprika, rödlök, sjögrässallad, ingenfära, sojabönor, & sesamfrö (ägg, laktos)' },
 		],
 	},
 	
