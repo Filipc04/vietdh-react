@@ -1,21 +1,17 @@
 import type { DailyMenu } from '../../types/types';
 
-export const dailyMealsEven: DailyMenu[] = [
+export const dailyMeals: DailyMenu[] = [
 	{
 		day: 'Måndag',
 		meals: [
 			{
-				text: 'Kyckling schnitzel med stekt potatis, ärtor & bearnaisesås',
+				text: 'Kyckling schnitzel med stekt potatis, bearnaisesås & ärtor',
 			},
 			{
-				text: 'Kyckling i rödcurry med blandade grönsaker & ris',
+				text: 'Hemmagjorda vårrullar med stekta äggnudlar & grönsaker',
 			},
 			{
-				text: 'Dagens små rätter (ris ingår)',
-				variants: [
-					'Wokad biff med bambuskott',
-					'Friterad kyckling & sötsur sås',
-				],
+				text: 'Kyckling rödcurry',
 			},
 		],
 	},
@@ -23,13 +19,16 @@ export const dailyMealsEven: DailyMenu[] = [
 		day: 'Tisdag',
 		meals: [
 			{
+				text: 'Bánh mì – vietnamesiskt baguette med grillat fläskkött, sallad & sås',
+			},
+			{
 				text: 'Räkor pokébowl',
 			},
 			{
-				text: 'Wokad kyckling med blandade grönsaker & ris',
+				text: 'Wokad fläsk med grönsaker & kokt ris',
 			},
 			{
-				text: 'Wokat fläsk med grönsaker & ris',
+				text: 'Wokad kyckling med blandade grönsaker & kokt ris',
 			},
 		],
 	},
@@ -40,10 +39,10 @@ export const dailyMealsEven: DailyMenu[] = [
 				text: 'Kyckling pokébowl',
 			},
 			{
-				text: 'Dagens små rätter (ris ingår)',
+				text: 'Dagens små rätter',
 				variants: [
-					'Kycklingspett i jordnötssås',
-					'Friterad kyckling med sötsursås',
+					'Wokad biff med blandade grönsaker',
+					'Friterad kyckling & kokt ris',
 				],
 			},
 			{
@@ -61,7 +60,7 @@ export const dailyMealsEven: DailyMenu[] = [
 				text: 'Kyckling i panangcurry med paprika, lök & ris',
 			},
 			{
-				text: 'Wokad biff med grönsaker i szechuansås',
+				text: 'Kycklingspett i sötsursås/jordnötssås & ris',
 			},
 		],
 	},
@@ -72,89 +71,13 @@ export const dailyMealsEven: DailyMenu[] = [
 				text: 'Biff pokébowl',
 			},
 			{
-				text: 'Wokad kyckling med blandade grönsaker & ris',
+				text: 'Kycklingspett i sötsursås eller jordnötssås & kokt ris',
 			},
 			{
-				text: 'Kycklingspett i sötsursås & ris',
-			},
-		],
-	},
-];
-
-export const dailyMealsOdd: DailyMenu[] = [
-	{
-		day: 'Måndag',
-		meals: [
-			{
-				text: 'Stekta äggnudlar med hemmagjorda vårrullar & sötsursås',
+				text: 'Panerad fisk med potatismos, ärtor & remouladsås',
 			},
 			{
-				text: 'Kyckling i rödcurry med blandade grönsaker & ris',
-			},
-			{
-				text: 'Dagens små rätter (ris ingår)',
-				variants: ['Kycklingspett i jordnötssås', 'Kyckling i rödcurry'],
-			},
-		],
-	},
-	{
-		day: 'Tisdag',
-		meals: [
-			{
-				text: 'Panerad fisk med potatismos, ärtor & sås',
-			},
-			{
-				text: 'Wokat fläsk med blandade grönsaker i szechuansås & ris',
-			},
-			{
-				text: 'Wokad kyckling med blandade grönsaker i sötsurssås',
-			},
-		],
-	},
-	{
-		day: 'Onsdag',
-		meals: [
-			{
-				text: 'Kyckling pokébowl',
-			},
-			{
-				text: 'Dagens små rätter (ris ingår)',
-				variants: [
-					'Wokad biff med blandade grönsaker',
-					'Friterad kyckling med sötsursås',
-				],
-			},
-			{
-				text: 'Wokad kyckling med blandade grönsaker i szechuansås & ris',
-			},
-		],
-	},
-	{
-		day: 'Torsdag',
-		meals: [
-			{
-				text: 'Fläskschnitzel med stekt potatis, bearnaisesås & ärtor',
-			},
-			{
-				text: 'Kyckling i panangcurry med paprika, lök & ris',
-			},
-			{
-				text: 'Wokad kyckling med grönsaker & ris',
-			},
-		],
-	},
-	{
-		day: 'Fredag',
-		meals: [
-			{
-				text: 'Biff pokébowl',
-			},
-			{
-				text: 'Padthai',
-				variants: ['Stekt kyckling med risnudlar och grönsaker i padthaisås'],
-			},
-			{
-				text: 'Kycklingspett i jordnötssås & ris',
+				text: 'Wokad kyckling med blandade grönsaker & kokt ris',
 			},
 		],
 	},
