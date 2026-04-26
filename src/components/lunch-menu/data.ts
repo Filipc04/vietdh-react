@@ -11,7 +11,7 @@ export const dailyMeals: DailyMenu[] = [
 				text: 'Hemmagjorda vårrullar med stekta äggnudlar & grönsaker',
 			},
 			{
-				text: 'Kyckling rödcurry',
+				text: 'Kyckling rödcurry (lite stark)',
 			},
 		],
 	},
@@ -25,7 +25,7 @@ export const dailyMeals: DailyMenu[] = [
 				text: 'Räkor pokébowl',
 			},
 			{
-				text: 'Wokad fläsk med grönsaker & kokt ris',
+				text: 'Wokad fläsk med grönsaker & kokt ris (stark)',
 			},
 			{
 				text: 'Wokad kyckling med blandade grönsaker & kokt ris',
@@ -57,7 +57,7 @@ export const dailyMeals: DailyMenu[] = [
 				text: 'Fläskschnitzel med stekt potatis, bearnaisesås & ärtor',
 			},
 			{
-				text: 'Kyckling i panangcurry med paprika, lök & ris',
+				text: 'Kyckling i panangcurry med paprika, lök & ris (lite stark)',
 			},
 			{
 				text: 'Kycklingspett i sötsursås/jordnötssås & ris',
