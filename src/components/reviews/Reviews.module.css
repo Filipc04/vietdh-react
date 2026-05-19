@@ -58,3 +58,13 @@
 
   
 }
+
+.icon {
+  width: 30px;
+}
+
+.review-header{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
