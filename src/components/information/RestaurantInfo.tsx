@@ -1,4 +1,3 @@
-import findUsImg from '../../assets/find_us.png';
 import { InfoObject } from './info';
 import styles from './RestaurantInfo.module.css';
 
@@ -9,14 +8,14 @@ export function RestaurantInfo() {
 				Ring och beställ
 			</a>
 			<div className={styles.findUsText}>Hitta till oss</div>
-			<a
-				className={styles.findUsLink}
-				href="https://www.google.com/maps/place/Viet+DH+restaurang/@56.6604271,12.8763978,16z/data=!4m6!3m5!1s0x4651a348397a09ad:0x125c7412d79dce12!8m2!3d56.6605451!4d12.8787796!16s%2Fg%2F11xss3p6gp!5m2!1e4!1e1?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D"
-				target="_blank"
-				rel="noopener"
-			>
-				<img src={findUsImg} alt="" className={styles.findUsImage} />
-			</a>
+			<iframe
+				title="Karta över Viet DH Restaurang"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2192.797127135498!2d12.876199313182566!3d56.660545073322965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4651a348397a09ad%3A0x125c7412d79dce12!2sViet%20DH%20restaurang!5e0!3m2!1sen!2sse!4v1779191341331!5m2!1sen!2sse"
+				className={styles.findUsMap}
+				allowFullScreen
+				loading="lazy"
+				referrerPolicy="no-referrer-when-downgrade"
+			/>
 
 			<div className={styles.openingHours}>
 				Öppettider:{' '}
