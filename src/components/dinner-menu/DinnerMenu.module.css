@@ -33,6 +33,7 @@
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 10px;
+	gap: 1rem;
 }
 
 @media (max-width: 768px) { 
@@ -40,5 +41,9 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1.2em;
+	}
+
+	.menu-item{
+		gap: 0;
 	}
 }

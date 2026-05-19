@@ -22,7 +22,7 @@ export const ReviewData: Review[] = [
 	{
 		name: 'Brick Engineer',
 		rating: 5,
-		text: 'Jättegod mat! Mysig musik, bra stämning. Det är lätt att prata. Definitivt värt en omväg om du är i Halmstad.',
+		text: 'We did a quick stop during our Bike Trip. It was very very good :)',
 		link: 'https://maps.app.goo.gl/r4YCqHv7HAF37FQc8',
 	},
 ];
