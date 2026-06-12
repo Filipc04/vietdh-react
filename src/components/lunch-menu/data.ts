@@ -19,13 +19,10 @@ export const dailyMeals: DailyMenu[] = [
 		day: 'Tisdag',
 		meals: [
 			{
-				text: 'Bánh mì – vietnamesiskt baguette med grillat fläskkött, sallad & sås',
-			},
-			{
 				text: 'Räkor pokébowl',
 			},
 			{
-				text: 'Wokad fläsk med grönsaker & kokt ris (stark)',
+				text: 'Wokad fläsk med grönsaker & kokt ris',
 			},
 			{
 				text: 'Wokad kyckling med blandade grönsaker & kokt ris',
