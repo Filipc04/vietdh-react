@@ -23,7 +23,6 @@ export const dinnerMeals: DinnerMenu[] = [
 			{ text: 'Phở bò (nudelsoppa med biff)', price: 120 },
 			{ text: 'Phở gà (nudelsoppa med kyckling)', price: 120 },
 			{ text: 'Phở bò & gà (nudelsoppa med biff och kyckling)', price: 120 },
-			
 		],
 	},
 	{
@@ -32,7 +31,10 @@ export const dinnerMeals: DinnerMenu[] = [
 			{ text: 'Bún chả nem (risnudlar med vårrullar)', price: 120 },
 			{ text: 'Marinerad fläsk med risnudlar, sallader och sås', price: 120 },
 			{ text: 'Marinerad biff med risnudlar, sallader och sås', price: 120 },
-			{ text: 'Marinerad kyckling med risnudlar, sallader och sås', price: 120 },
+			{
+				text: 'Marinerad kyckling med risnudlar, sallader och sås',
+				price: 120,
+			},
 		],
 	},
 	{
@@ -48,10 +50,13 @@ export const dinnerMeals: DinnerMenu[] = [
 		meals: [
 			{ text: 'Wokad kyckling med bambuskott', price: 109 },
 			{ text: 'Wokad kyckling med grönsaker', price: 109 },
-			{ text: 'Wokad kyckling med grönsaker i szechuansås (stark)', price: 109 },
+			{
+				text: 'Wokad kyckling med grönsaker i szechuansås (stark)',
+				price: 109,
+			},
 		],
 	},
-	
+
 	{
 		mealCategory: 'Fläsk',
 		meals: [
@@ -63,10 +68,16 @@ export const dinnerMeals: DinnerMenu[] = [
 		mealCategory: 'Anka',
 		meals: [
 			{ text: 'Friterad anka med blandade grönsaker', price: 125 },
-			{ text: 'Friterad anka med blandade grönsaker i szechuansås (stark)', price: 125 },
+			{
+				text: 'Friterad anka med blandade grönsaker i szechuansås (stark)',
+				price: 125,
+			},
 			{ text: 'Friterad anka med lök, ananas i sötsursås', price: 125 },
 			{ text: 'Friterad anka i rödcurry med blandade grönsaker', price: 125 },
-			{ text: 'Friterad anka i panangcurry med blandade grönsaker', price: 125 },
+			{
+				text: 'Friterad anka i panangcurry med blandade grönsaker',
+				price: 125,
+			},
 		],
 	},
 	{
@@ -74,7 +85,8 @@ export const dinnerMeals: DinnerMenu[] = [
 		meals: [
 			{ text: 'Wokade räkor med blandade grönsaker', price: 119 },
 			{
-				text: 'Wokade räkor med blandade grönsaker i szechuansås (stark)', price: 119,
+				text: 'Wokade räkor med blandade grönsaker i szechuansås (stark)',
+				price: 119,
 			},
 		],
 	},
@@ -98,20 +110,24 @@ export const dinnerMeals: DinnerMenu[] = [
 		mealCategory: 'Curry',
 		meals: [
 			{
-				text: 'Kyckling i rödcurry med blandade grönsaker', price: 109
+				text: 'Kyckling i rödcurry med blandade grönsaker',
+				price: 109,
 			},
 			{
-				text: 'Kyckling i panangcurry med lök, paprika & ananas', price: 109
+				text: 'Kyckling i panangcurry med lök, paprika & ananas',
+				price: 109,
 			},
 			{
-				text: 'Räkor i panangcurry med lök, paprika & ananas', price: 119
+				text: 'Räkor i panangcurry med lök, paprika & ananas',
+				price: 119,
 			},
 			{
-				text: 'Räkor i rödcurry med blandade grönsaker', price: 119
+				text: 'Räkor i rödcurry med blandade grönsaker',
+				price: 119,
 			},
 		],
 	},
-	
+
 	{
 		mealCategory: 'PadThai',
 		meals: [
@@ -120,7 +136,7 @@ export const dinnerMeals: DinnerMenu[] = [
 			{
 				text: 'Risnudlar med räkor, biff samt kyckling & blandade grönsaker',
 				price: 119,
-			}, 
+			},
 		],
 	},
 	{
@@ -134,9 +150,9 @@ export const dinnerMeals: DinnerMenu[] = [
 			},
 		],
 	},
-	
+
 	{
-		mealCategory: 'Friterad',
+		mealCategory: 'Friterat',
 		meals: [
 			{ text: 'Kycklingspett i jordnötssås/sötsursås', price: 109 },
 			{ text: 'Friterade kycklingvingar & pommes', price: 109 },
@@ -150,10 +166,12 @@ export const dinnerMeals: DinnerMenu[] = [
 			{ text: 'Kyckling pokébowl', price: 109 },
 			{ text: 'Biff pokébowl', price: 119 },
 			{ text: 'Räkpokébowl', price: 119 },
-			{ note: 'Innehåller gurka, paprika, rödlök, sjögrässallad, ingenfära, sojabönor, & sesamfrö (ägg, laktos)' },
+			{
+				note: 'Innehåller gurka, paprika, rödlök, sjögrässallad, ingenfära, sojabönor, & sesamfrö (ägg, laktos)',
+			},
 		],
 	},
-	
+
 	{
 		mealCategory: 'Vegetariskt',
 		meals: [
@@ -165,9 +183,7 @@ export const dinnerMeals: DinnerMenu[] = [
 	},
 	{
 		mealCategory: 'Efterrätt',
-		meals: [
-			{ text: 'Friterad banan med glass', price: 50 },
-		],
+		meals: [{ text: 'Friterad banan med glass', price: 50 }],
 	},
 	{
 		mealCategory: 'Tillbehör',

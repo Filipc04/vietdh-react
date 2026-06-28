@@ -5,7 +5,7 @@ export function RestaurantInfo() {
 	return (
 		<div className={styles.infoContainer}>
 			<a className={styles.orderButton} href="tel:+46735232851">
-				Ring och beställ
+				RING OCH BESTÄLL
 			</a>
 			<div className={styles.findUsText}>Hitta till oss</div>
 			<iframe

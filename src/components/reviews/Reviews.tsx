@@ -14,7 +14,9 @@ export const Reviews = () => {
 								<img src="Google_Favicon.png" alt="" className={styles.icon} />
 							</a>
 						</div>
-						<div className={styles.text}>{reviews.text}</div>
+						<div className={styles.text}>
+							<i>{reviews.text}</i>
+						</div>
 						<div className={styles.rating}>{reviews.rating}/5 ⭐</div>
 					</div>
 				))}
