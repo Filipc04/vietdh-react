@@ -5,13 +5,13 @@ export const dailyMeals: DailyMenu[] = [
     day: "Måndag",
     meals: [
       {
-        text: "Kyckling pokébowl",
+        text: "Kyckling Schnitzel m. stekt potatis & bearnaisesås, ärtor",
       },
       {
         text: "Hemmagjorda vårrullar med stekta äggnudlar & grönsaker",
       },
       {
-        text: "Kyckling rödcurry (lite stark)",
+        text: "Kyckling rödcurry (stark)",
       },
     ],
   },
@@ -19,13 +19,13 @@ export const dailyMeals: DailyMenu[] = [
     day: "Tisdag",
     meals: [
       {
-        text: "Biff pokébowl",
+        text: "Pannbiff med kokt potatis, sås och grönsaker",
       },
       {
         text: "Wokad fläsk med grönsaker & kokt ris",
       },
       {
-        text: "Wokad kyckling med blandade grönsaker & kokt ris",
+        text: "Wokad kyckling m. blandade grönsaker & kokt ris",
       },
     ],
   },
@@ -36,10 +36,10 @@ export const dailyMeals: DailyMenu[] = [
         text: "Kyckling pokébowl",
       },
       {
-        text: "Wokad biff med grönsaker och ris",
+        text: "Wokad biff med blandade grönsaker & friterad kyckling & kokt ris",
       },
       {
-        text: "Stekt äggnudlar med kyckling & blandade grönsaker",
+        text: "Stekt äggnudlar m. kyckling & blandade grönsaker",
       },
     ],
   },
@@ -47,10 +47,10 @@ export const dailyMeals: DailyMenu[] = [
     day: "Torsdag",
     meals: [
       {
-        text: "Wokad fläsk med grönsaker & kokt ris",
+        text: "Fläskschnitzel med stekt potatis, bearnaisesås & ärtor",
       },
       {
-        text: "Kyckling i panangcurry med paprika, lök & ris (lite stark)",
+        text: "Kyckling i panangcurry, paprika, lök & ris (stark)",
       },
       {
         text: "Kycklingspett i sötsursås/jordnötssås & ris",
@@ -61,13 +61,13 @@ export const dailyMeals: DailyMenu[] = [
     day: "Fredag",
     meals: [
       {
-        text: "Hemmagjorda vårrullar med stekta äggnudlar & grönsaker",
+        text: "Stekt fläskfärs med ris och kokt grönsaker",
       },
       {
         text: "Biff pokébowl",
       },
       {
-        text: "Wokad kyckling med blandade grönsaker & kokt ris",
+        text: "Wokad kyckling m. blandade grönsaker & kokt ris",
       },
     ],
   },

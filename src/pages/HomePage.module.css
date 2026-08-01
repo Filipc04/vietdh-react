@@ -4,14 +4,6 @@
   padding: 20px;
 }
 
-.temp-header {
-  color: var(--primary-fg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
-
 @media (max-width: 768px) {
   .lunch-and-info {
     flex-direction: column;
