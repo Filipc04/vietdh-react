@@ -61,7 +61,7 @@ export const dailyMeals: DailyMenu[] = [
     day: "Fredag",
     meals: [
       {
-        text: "Stekt fläskfärs med ris och kokt grönsaker",
+        text: "Marry me chicken - kycklingbröstfile i krämig sås med soltorkade tomater, serveras med ris.",
       },
       {
         text: "Biff pokébowl",
