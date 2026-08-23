@@ -22,7 +22,7 @@ export const dailyMeals: DailyMenu[] = [
         text: "Pannbiff med kokt potatis, sås och grönsaker",
       },
       {
-        text: "Wokad fläsk med grönsaker & kokt ris",
+        text: "Bánh mì: vietnamesiskt baguette med grillat rött fläskkött med sallader & sås",
       },
       {
         text: "Wokad kyckling m. blandade grönsaker & kokt ris",
