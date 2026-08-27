@@ -8,7 +8,7 @@ export function LunchMenu() {
 			<h2>Lunchmeny</h2>
 			<div className={styles.days}>
 				<h4>
-					Student - 80kr, med läsk - 85kr
+					Student - 85kr, med läsk - 90kr
 					<br />
 					Standard lunchpris: Avhämtning - 90kr, Servering - 95kr
 				</h4>
